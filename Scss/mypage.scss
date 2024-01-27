@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background: url('Pictures/pink.png');
+    background-size: cover;
+    font-family: roboto;
+    .container {
+        margin-top: 10%;
+        .name {
+            font-size: 48px;
+            text-align: center;
+        }
+        .me {
+            font-size: 32px;
+            text-align: center;
+        }
+        .description {
+            margin-top: 3%;
+            margin-left: 200px;
+            margin-right: 200px;
+            font-size: 24px;
+            font-style: italic;
+        }
+    }
+    .myimg {
+        border-radius: 50%;
+        width: 15%;
+        border: 6px solid yellow;
+        transform: translate(270%, 10%);
+    }
+    .music {
+        position: relative;
+        margin-left: 50%;
+        margin-bottom: 5%;
+
+    }
+    .gay {
+        position: relative;
+        margin-left: 18%;
+    }
+}

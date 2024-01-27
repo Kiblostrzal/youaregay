@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: url("Pictures/pink.png");
+  background-size: cover;
+  font-family: roboto;
+}
+body .container {
+  margin-top: 10%;
+}
+body .container .name {
+  font-size: 48px;
+  text-align: center;
+}
+body .container .me {
+  font-size: 32px;
+  text-align: center;
+}
+body .container .description {
+  margin-top: 3%;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 24px;
+  font-style: italic;
+}
+body .myimg {
+  border-radius: 50%;
+  width: 15%;
+  border: 6px solid yellow;
+  transform: translate(270%, 10%);
+}
+body .music {
+  position: relative;
+  margin-left: 50%;
+  margin-bottom: 5%;
+}
+body .gay {
+  position: relative;
+  margin-left: 18%;
+}/*# sourceMappingURL=mypage.css.map */
