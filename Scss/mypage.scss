@@ -21,11 +21,55 @@ body {
             font-style: italic;
         }
     }
+    .icons {
+        position: absolute;
+        margin-left: 17%;
+        border-radius: 50%;
+        font-size: 24px;
+        .facebook {
+            border-radius: 50%;
+        }
+        .instagram {
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        .tiktok {
+            border-radius: 50%; 
+            margin-top: 20px;
+        }
+        .snapchat {
+            border-radius: 50%; 
+            margin-top: 20px;
+        }
+    }
+    .icontext {
+        font-weight: bold;
+        margin-left: 22%;
+        position: absolute;
+        font-size: large;
+        font-weight: bold;
+        &.facebook {
+            position: absolute;
+            margin-top:1%;
+        }
+        &.instagram {
+            position: absolute;
+            margin-top:4.7%;
+        }
+        &.tiktok {
+            position: absolute;
+            margin-top:8.2%;
+        }
+        &.snapchat {
+            position: absolute;
+            margin-top:10.8%;
+        }
+    }
     .myimg {
         border-radius: 50%;
         width: 15%;
         border: 6px solid yellow;
-        transform: translate(270%, 10%);
+        transform: translate(270%, -7%);
     }
     .music {
         position: relative;

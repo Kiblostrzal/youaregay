@@ -22,11 +22,55 @@ body .container .description {
   font-size: 24px;
   font-style: italic;
 }
+body .icons {
+  position: absolute;
+  margin-left: 17%;
+  border-radius: 50%;
+  font-size: 24px;
+}
+body .icons .facebook {
+  border-radius: 50%;
+}
+body .icons .instagram {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+body .icons .tiktok {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+body .icons .snapchat {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+body .icontext {
+  font-weight: bold;
+  margin-left: 22%;
+  position: absolute;
+  font-size: large;
+  font-weight: bold;
+}
+body .icontext.facebook {
+  position: absolute;
+  margin-top: 1%;
+}
+body .icontext.instagram {
+  position: absolute;
+  margin-top: 4.7%;
+}
+body .icontext.tiktok {
+  position: absolute;
+  margin-top: 8.2%;
+}
+body .icontext.snapchat {
+  position: absolute;
+  margin-top: 10.8%;
+}
 body .myimg {
   border-radius: 50%;
   width: 15%;
   border: 6px solid yellow;
-  transform: translate(270%, 10%);
+  transform: translate(270%, -7%);
 }
 body .music {
   position: relative;
